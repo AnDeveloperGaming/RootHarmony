@@ -1,0 +1,36 @@
+# =======================================================
+# Theme Name: Root Harmony Concept (WhiteSur Mod)
+# Author: L-Caldoza
+# =======================================================
+
+# Global Configurations
+desktop-image: "background.png"
+title-text: ""
+title-font: "DejaVu Sans Bold 24"
+title-color: "#ffffff"
+
+# Boot Menu List Container Block
++ boot_menu {
+  left = 25%
+  top = 28%
+  width = 50%
+  height = 45%
+  
+  # Typography styling
+  item_font = "DejaVu Sans Regular 14"
+  item_color = "#e0e0e0"
+  selected_item_color = "#ffffff"
+  
+  # FLAT BOX WORKAROUND (Fixes invisible selection bars)
+  # Uses a flat, rounded hex gradient color background panel instead of a glitchy image file
+  selected_item_color = "#ffffff"
+  item_background_color = "none"
+  selected_item_background_color = "#4a90e2"
+  
+  # Dynamic layout item sizing
+  icon_width = 24
+  icon_height = 24
+  item_height = 36
+  item_padding = 12
+  item_spacing = 16
+}
